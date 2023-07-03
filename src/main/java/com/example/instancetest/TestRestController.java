@@ -15,4 +15,9 @@ public class TestRestController {
     public String sayHello() {
         return "hello";
     }
+
+    @GetMapping("/v2")
+    public String sayHello2() {
+        return "hello to my little friend";
+    }
 }
